@@ -4,5 +4,8 @@
 
 .UserListItem .Name {
     font-weight: 600;
-    margin: 10px 0;
+}
+
+.UserListItem .Account {
+    /*font-weight: 600;*/
 }

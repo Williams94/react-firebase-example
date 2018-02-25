@@ -1,3 +1,7 @@
+.AppsList {
+    margin-top: 15px;
+}
+
 .AppsList ul {
     list-style: circle;
 }

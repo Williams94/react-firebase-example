@@ -8,6 +8,8 @@ class UserList extends Component {
       <div className="UserListItem">
         <li>
           <span className="Name">{this.props.user.name}</span>
+          <br/>
+          Account:&nbsp;<span className="Account">{this.props.user.account}</span>
           <AppsList apps={this.props.user.apps}/>
         </li>
         <hr/>
