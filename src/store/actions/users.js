@@ -21,10 +21,24 @@ export const getUsers = () => {
   return dispatch => {
     dispatch(getUsersStart());
     firebaseConfig();
-    const ref = firebase.database().ref('/users');
-    ref.on('value', function (snapshot) {
-      console.log(snapshot.val());
-      dispatch(getUsersResults(JSON.stringify(snapshot.val())));
+    const usersRef = firebase.database().ref('/users');
+    let count = 0;
+    usersRef.on('value', function (snapshot) {
+      const obj = snapshot.val();
+      const array = Object.keys(obj).map(function (key) {
+        obj[key].id = key;
+        return obj[key];
+      });
+      array.forEach((user) => {
+        const accountsRef = firebase.database().ref(`/accounts/${user.account}`);
+        accountsRef.on('value', function (snapshot) {
+          user.apps = snapshot.val().apps;
+          count++;
+          if (count === array.length) {
+            dispatch(getUsersResults(JSON.stringify(array)));
+          }
+        });
+      });
     }, function (errorObject) {
       dispatch(getUsersError(JSON.stringify(errorObject)))
     });

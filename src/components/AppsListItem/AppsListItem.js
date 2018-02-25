@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import './UserList.css';
-import AppsList from '../AppsList/AppsList';
+import './AppsListItem.css';
 
 class UserList extends Component {
   render() {
     return (
       <div className="AppListItem">
-        <span>{this.props.app.title}</span>
+        <li>{this.props.app.title}</li>
       </div>
     );
   }

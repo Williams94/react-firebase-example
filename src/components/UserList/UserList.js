@@ -13,6 +13,7 @@ class UserList extends Component {
   componentDidUpdate() {
     if (this.state.userListItems === 'loading...') {
       const obj = JSON.parse(this.props.users);
+      console.log(obj);
       const array = Object.keys(obj).map(function (key) {
         obj[key].id = key;
         return <UserListItem key={key} user={obj[key]}/>;
@@ -25,7 +26,6 @@ class UserList extends Component {
     return (
       <div className="UserList">
         <ul>{this.state.userListItems}</ul>
-        <ul>{console.log(this.state.userListItems)}</ul>
       </div>
     );
   }
