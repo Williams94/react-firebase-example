@@ -1,20 +1,20 @@
-.App-header {
+.Header {
   background-color: white;
   height: 100px;
   padding: 20px;
   color: black;
 }
 
-.App-title {
+.HeaderTitle {
   font-size: 20px;
   font-weight: 300;
 }
 
-.App-subtitle {
+.HeaderSubtitle {
   font-size: 16px;
   font-weight: 300;
 }
 
-.App-username {
+.HeaderUsername {
   font-weight: 600;
 }

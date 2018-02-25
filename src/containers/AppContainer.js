@@ -6,7 +6,7 @@ import App from '../components/App/App';
 
 function mapStateToProps(state) {
   return {
-    results: state.users.results
+    users: state.users.results !== null ? state.users.results : 'loading...'
   }
 }
 

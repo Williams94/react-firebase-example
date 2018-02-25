@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Header from '../Header/Header';
+import UserList from '../UserList/UserList';
 
 class App extends Component {
   componentWillMount() {
@@ -11,8 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <ul>{this.props.results !== null ? this.props.results : '..loading'}</ul>
-        {console.log(this.props.results)}
+        {/*{this.props.users}*/}
+        <UserList users={this.props.users}/>
       </div>
     );
   }

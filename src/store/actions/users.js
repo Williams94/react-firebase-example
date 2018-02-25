@@ -1,5 +1,5 @@
-import axios from 'axios';
-// import getUsersRequest from '../../services/users';
+import firebaseConfig from '../../utils/firebaseConfig';
+import * as firebase from 'firebase';
 
 export const GET_USERS_START = "GET_USERS_START";
 export const getUsersStart = () => {
@@ -20,8 +20,13 @@ export const GET_USERS = "GET_USERS";
 export const getUsers = () => {
   return dispatch => {
     dispatch(getUsersStart());
-    axios.get(`https://beezer-test-fb095.firebaseio.com/users.json`)
-      .then(res => dispatch(getUsersResults(JSON.stringify(res.data))))
-      .catch(err => dispatch(getUsersError(JSON.stringify(err))))
+    firebaseConfig();
+    const ref = firebase.database().ref('/users');
+    ref.on('value', function (snapshot) {
+      console.log(snapshot.val());
+      dispatch(getUsersResults(JSON.stringify(snapshot.val())));
+    }, function (errorObject) {
+      dispatch(getUsersError(JSON.stringify(errorObject)))
+    });
   }
 };
