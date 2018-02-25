@@ -13,7 +13,6 @@ class AppsList extends Component {
   componentDidMount() {
     if (this.state.appListItems === null) {
       const obj = this.props.apps;
-      console.log(obj);
       const array = Object.keys(obj).map(function (key) {
         obj[key].id = key;
         return <AppsListItem key={key} app={obj[key]}/>;
@@ -25,7 +24,6 @@ class AppsList extends Component {
   render() {
     return (
       <div className="AppsList">
-        {/*Account ID: <span className="AccountId">{this.props}</span>*/}
         Apps:<ul>{this.state.userListItems}</ul>
       </div>
     );

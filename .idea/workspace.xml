@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4fc86041-0e51-4282-974f-a0219ac6e23b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AppsList/AppsList.css" afterPath="$PROJECT_DIR$/src/components/AppsList/AppsList.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AppsList/AppsList.js" afterPath="$PROJECT_DIR$/src/components/AppsList/AppsList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" afterPath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" afterPath="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css" afterPath="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js" afterPath="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UserList/UserList.js" afterPath="$PROJECT_DIR$/src/components/UserList/UserList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="AppsList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AppsList/AppsList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,30 @@
       <file leaf-file-name="UserList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UserList/UserList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="299">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppsListItem.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppsListItem.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -53,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserListItem.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserListItem.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/UserListItem/UserListItem.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="184">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -69,7 +91,6 @@
     <findStrings>
       <find>setSta</find>
       <find>co</find>
-      <find>console.</find>
       <find>console.l</find>
       <find>console.log</find>
       <find>.appL</find>
@@ -81,6 +102,12 @@
       <find>.AppL</find>
       <find>Name</find>
       <find>.Name</find>
+      <find>l</find>
+      <find>loading.</find>
+      <find>loading..</find>
+      <find>loading...</find>
+      <find>conso</find>
+      <find>console.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,13 +131,13 @@
         <option value="$PROJECT_DIR$/src/components/App/App.css" />
         <option value="$PROJECT_DIR$/src/store/actions/users.js" />
         <option value="$PROJECT_DIR$/src/css/index.css" />
-        <option value="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css" />
-        <option value="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js" />
         <option value="$PROJECT_DIR$/src/components/AppsList/AppsList.css" />
-        <option value="$PROJECT_DIR$/src/components/AppsList/AppsList.js" />
-        <option value="$PROJECT_DIR$/src/components/UserList/UserList.js" />
         <option value="$PROJECT_DIR$/src/components/UserListItem/UserListItem.js" />
         <option value="$PROJECT_DIR$/src/components/UserListItem/UserListItem.css" />
+        <option value="$PROJECT_DIR$/src/components/UserList/UserList.js" />
+        <option value="$PROJECT_DIR$/src/components/AppsList/AppsList.js" />
+        <option value="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css" />
+        <option value="$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js" />
       </list>
     </option>
   </component>
@@ -392,7 +419,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8467000" />
+    <option name="totallyTimeSpent" value="10747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -518,7 +545,7 @@
         <state relative-caret-position="253">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,7 +638,7 @@
         <state relative-caret-position="345">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,7 +804,7 @@
         <state relative-caret-position="506">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -806,24 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppsList/AppsList.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -840,22 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppsList/AppsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserList/UserList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UserListItem/UserListItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -868,9 +861,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UserListItem/UserListItem.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="184">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppsList/AppsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserList/UserList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppsListItem/AppsListItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

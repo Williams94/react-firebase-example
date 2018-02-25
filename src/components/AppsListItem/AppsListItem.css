@@ -1,3 +1,16 @@
 .AppListItem {
 
 }
+.AppListItem input {
+    margin-left: 15px;
+    width: 20px;
+}
+
+.AppListItem .RatingText {
+    font-size: 13px;
+}
+
+.AppListItem .Star {
+    font-size: 13px;
+    margin: 0 5px;
+}

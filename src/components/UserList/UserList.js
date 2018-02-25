@@ -6,12 +6,12 @@ class UserList extends Component {
   constructor() {
     super();
     this.state = {
-      userListItems: 'loading...',
+      userListItems: 'Loading...',
     }
   }
 
   componentDidUpdate() {
-    if (this.state.userListItems === 'loading...') {
+    if (this.state.userListItems === 'Loading...') {
       const obj = JSON.parse(this.props.users);
       console.log(obj);
       const array = Object.keys(obj).map(function (key) {
