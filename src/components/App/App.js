@@ -12,7 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        {/*{this.props.users}*/}
         <UserList users={this.props.users}/>
       </div>
     );

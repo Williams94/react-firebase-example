@@ -16,7 +16,6 @@ class UserList extends Component {
 
   updateRating(e) {
     e.preventDefault();
-    console.log('Saving rating', this.state.rating);
   }
 
   render() {
@@ -28,7 +27,7 @@ class UserList extends Component {
           <span className="RatingText">Rated:</span>
           <input value={this.state.rating} onChange={this.handleChange}
                  type="number" placeholder="Rate this title (1-5)" min="1" max="5" step="1"/>
-          <span className="Star">⭐</span>
+          <span className="Star" role="img" aria-label="star rating">⭐</span>
           <button onClick={this.updateRating}>Save Rating</button>
         </li>
       </div>
