@@ -13,7 +13,7 @@ class AppsList extends Component {
   componentDidMount() {
     if (this.state.appListItems === null) {
       const obj = this.props.apps;
-      const array = Object.keys(obj).map(function (key) {
+      const array = Object.keys(obj).map((key) => {
         obj[key].id = key;
         return <AppsListItem key={key} app={obj[key]}/>;
       });

@@ -14,7 +14,7 @@ class UserList extends Component {
     if (this.state.userListItems === 'Loading...') {
       const obj = JSON.parse(this.props.users);
       console.log(obj);
-      const array = Object.keys(obj).map(function (key) {
+      const array = Object.keys(obj).map((key) => {
         obj[key].id = key;
         return <UserListItem key={key} user={obj[key]}/>;
       });
